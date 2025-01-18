@@ -1,0 +1,295 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* navbar-start */
+nav{
+    display: flex;
+}
+.navbar{
+    margin-left: 500px;
+    /* margin: 10px; */
+    /* gap: 100px; */
+    /* justify-content: center; */
+}
+nav .container-fluid a{
+    margin: 8px;
+    /* margin-left: 80px; */
+}
+nav .collapse{
+    justify-content: center;
+    
+    /* padding: 50px; */
+    /* margin: 10px; */
+    /* gap: 20px; */
+    /* margin-left: 10px; */
+    /* margin-left: 580px; */
+}
+
+
+/* navbar-End */
+
+/* hero-section Start*/
+.hero-section{
+    margin-top: 50px;
+}
+.hero-section button{
+    background-color: red;
+    color: aliceblue;
+    width: 105px;
+    height: 35px;
+    border: none;
+}
+.hero-section .container .row .col img{
+    height: 550px;
+    margin-top: 30px;
+
+}
+.hero-section .container .headers h2{
+    color: rgba(255, 0, 0, 0.755);
+    text-align: left;
+    margin-left: 150px;
+    font-size: 50px;
+}
+.hero-section .container .headers p{
+    text-align: left;
+    margin-left: 150px;
+}
+.hero-section .container .headers{
+    margin-top: 190px;
+    justify-content: center;
+   
+}
+.hero-section .container .headers h3{
+    text-align: left;
+    margin-left: 150px;
+    color: rgb(197, 159, 159);
+}
+
+
+/* hero-section END */
+
+/* card section start */
+
+.card{
+    margin-top: 80px;
+    border: none;
+    height: 300px;
+}
+.card .row{
+    margin-left: 25%;
+   }
+.card .row .col-md-4 img{
+    height: 380px;
+    margin-left: -140px;
+}
+
+.card .col-md-8 h5{
+    color: red;
+    font-size: 40px;
+
+}
+.card .col-md-8 .hhh {
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    width: 310px;
+    margin-left:0px;
+}
+.card .col-md-8 h5 span{
+    color: rgba(0, 0, 0, 0.704);
+}
+.card .col-md-8 p{
+    width: 55%;
+}
+.card .col-md-8 button{
+
+    background-color: rgb(255, 46, 46);
+    color: aliceblue;
+    width: 105px;
+    height: 35px;
+    border: none;
+}
+
+/* card section End */
+
+
+/* Den product section start */
+
+.den-product{
+    margin-left: 211px;
+    margin-top: 150px;
+    color: rgb(164, 75, 75);
+    font-size: 50px;
+}
+hr{
+    color: blue;
+    width: 300px;
+    margin-left: 210px;
+    border: 2px solid blue;
+}
+.den-product span{
+    color: black;
+}
+.card-group{
+    margin: 143px;
+    margin-top: -59px;
+}
+
+.card-group img{
+    height: 300px;
+    width: 300px;
+    margin-left: 70px;
+    gap: 30px;
+    border: 15px solid rgba(0, 0, 0, 0.128);
+}
+
+.card-group h5{
+    text-align: center;
+    color: rgb(255, 54, 54);
+}
+/* Den product section End */
+
+/* images-4 section start */
+.container{
+    margin-top: -55px;
+}
+
+.card-4{
+    display: flex;
+    margin-left: 120px;
+}
+.card h1{
+    margin-top: -110px;
+}
+.card .images-4{
+    margin-left: 0px;
+    margin-top: -30px;
+}
+.card .images-4 img{
+    width: 22%;
+   margin-left: 9px;
+}
+.card .card-4-h2{
+    color: red;
+   margin-left: -90px;
+    text-align: center;
+}
+
+/* images-4 section End */
+
+.Get-in-touch{
+    display: flex;
+    margin-top: 80px;
+}
+.Get-in-touch .form-group input{
+    height: 50px;
+    width: 380px;
+    margin-left: 12%;
+    margin-top: 10px;
+}
+.Get-in-touch .form-group{
+    margin-top: 20px;
+}
+.Get-in-touch .form{
+    background-color: red;
+    margin-left: -580px;
+    height: 300px;
+    width:  500px;
+}
+.btn{
+    margin-top: 50px;
+    margin-left: 170px;
+    background-color: rgba(0, 0, 0, 0.638);
+    border: none;
+    width: 150px;
+}
+
+.Get-in-touch .get-in-touch-img img{
+    height: 250px;
+    margin-left: 50px;
+}
+.get-in-touch-h2{
+    margin-top: -60px;
+    margin-left:  840px;
+    color: red;
+}
+.get-in-touch-h2 span{
+    color: black;
+}
+
+.map{
+margin-top: 120px;
+/* z-index: -6; */
+position: absolute;
+/* opacity: 10px; */
+}
+.map .map-img img{
+    width: 99.9%;
+}
+.box-shadow{
+    margin-top: -590px;
+    height: 590px;
+    width: 99.9%;
+    background-color: rgba(0, 0, 0, 0.587);
+    position:   absolute;
+}
+
+.footer-part{
+    margin-top: 598px;
+    height: 300px;
+    background-color: rgb(14, 12, 12);
+}
+.main-four-div{
+    display: flex;
+    margin: 40px;
+    gap: 250px;
+}
+.main-four-div span{
+    color: aliceblue;
+}
+.main-four-div ul{
+    margin-left: -20px;
+    margin-top: 15px;
+    width: 170px;
+    /* border: 1px solid black; */
+}
+.main-four-div ul li{
+    list-style: square;
+    color: rgb(249, 250, 250);
+}
+.icon-main{
+    /* border: 3px solid rgb(139, 101, 101); */
+    margin-top: 20px;
+    height: 25px;
+    width: 200px;
+}
+.main-ins{
+    /* margin-left: -250px; */
+    /* margin-top: 80px; */
+}
+.instagram{
+    width: 250px;
+    height: 150px;
+    /* gap: 8px; */
+    margin-left: -8px;
+    margin-top: 8px;
+    /* border: 2px solid crimson; */
+}
+.instagram img{
+    margin-top: 2px;
+    margin-left: 5px;
+}
+.adderess-detail{
+    /* display: flex; */
+    margin-top: 20px;
+    /* gap: 5px; */
+    /* margin: 50px; */
+    }
+.adderess-detail span img{
+    height: 30px;
+    /* margin-top: 10px; */
+}
+.adderess-detail span{
+    display: flex;
+    margin-top: 8px;
+}
